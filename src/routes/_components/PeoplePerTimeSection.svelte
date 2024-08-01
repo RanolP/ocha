@@ -11,63 +11,65 @@
 	const unknown = data.filter((x) => x.time === 'UNKNOWN').length;
 </script>
 
-<table mx-auto text="6 lg:8">
-	<tr>
-		<td></td>
-		<td></td>
-		<th>{whole}</th>
-		<th>{oneTwo}</th>
-		<th>{twoThree}</th>
-		<th>{threeFour}</th>
-		<th>{unknown}</th>
-	</tr>
-	<tr>
-		<td></td>
-		<th>13:30</th>
-		<td rowspan="7" text-blue>
-			<Timeline length={7} balls={whole} />
-		</td>
-		<td rowspan="3" text-orange>
-			<Timeline length={3} balls={oneTwo} />
-		</td>
-		<td></td>
-		<td></td>
-		<td rowspan="7">
-			<RandomTimeline length={7} balls={unknown} />
-		</td>
-	</tr>
-	<tr>
-		<td text="4 lg:6"><RangeArc>{whole + oneTwo} + &alpha;</RangeArc> </td>
-		<th>14:00</th>
-	</tr>
-	<tr>
-		<td></td>
-		<th>14:30</th>
-		<td rowspan="3" text-yellow>
-			<Timeline length={3} balls={twoThree} />
-		</td>
-	</tr>
-	<tr>
-		<td text="4 lg:6"><RangeArc>{whole + twoThree} + &alpha;</RangeArc></td>
-		<th>15:00</th>
-	</tr>
-	<tr>
-		<td></td>
-		<th>15:30</th>
-		<td></td>
-		<td rowspan="3" text-green>
-			<Timeline length={3} balls={threeFour} />
-		</td>
-	</tr>
-	<tr>
-		<td text="4 lg:6"><RangeArc>{whole + threeFour} + &alpha;</RangeArc></td>
-		<th>16:00</th>
-	</tr>
-	<tr>
-		<td></td>
-		<th>16:30</th>
-	</tr>
-</table>
+<div max-w-screen overflow-x-auto overflow-y-visible flex="~ col" items-center>
+	<table mx-auto text="6 lg:8" min-w-110>
+		<tr>
+			<td></td>
+			<td></td>
+			<th>{whole}</th>
+			<th>{oneTwo}</th>
+			<th>{twoThree}</th>
+			<th>{threeFour}</th>
+			<th>{unknown}</th>
+		</tr>
+		<tr>
+			<td></td>
+			<th>13:30</th>
+			<td rowspan="7" text-blue>
+				<Timeline length={7} balls={whole} />
+			</td>
+			<td rowspan="3" text-orange>
+				<Timeline length={3} balls={oneTwo} />
+			</td>
+			<td></td>
+			<td></td>
+			<td rowspan="7">
+				<RandomTimeline length={7} balls={unknown} />
+			</td>
+		</tr>
+		<tr>
+			<td><RangeArc>{whole + oneTwo} + &alpha;</RangeArc> </td>
+			<th>14:00</th>
+		</tr>
+		<tr>
+			<td></td>
+			<th>14:30</th>
+			<td rowspan="3" text-yellow>
+				<Timeline length={3} balls={twoThree} />
+			</td>
+		</tr>
+		<tr>
+			<td><RangeArc>{whole + twoThree} + &alpha;</RangeArc></td>
+			<th>15:00</th>
+		</tr>
+		<tr>
+			<td></td>
+			<th>15:30</th>
+			<td></td>
+			<td rowspan="3" text-green>
+				<Timeline length={3} balls={threeFour} />
+			</td>
+		</tr>
+		<tr>
+			<td><RangeArc>{whole + threeFour} + &alpha;</RangeArc></td>
+			<th>16:00</th>
+		</tr>
+		<tr>
+			<td></td>
+			<th>16:30</th>
+		</tr>
+	</table>
+</div>
 
 <style>
 	tr {
@@ -78,6 +80,6 @@
 		@apply "w-14 lg:w-20";
 	}
 	td:first-of-type {
-		@apply "w-20 lg:w-30";
+		@apply "text-4 lg:text-6 w-20 lg:w-30";
 	}
 </style>
