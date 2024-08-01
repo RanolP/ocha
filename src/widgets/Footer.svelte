@@ -2,7 +2,7 @@
 	import logo from '$lib/images/svelte-logo.svg';
 </script>
 
-<footer text="center" font-sans bg-background-2>
+<footer text="center" font-sans bg-background-2 w-full>
 	<p text-6>
 		Made by
 		<a href="https://github.com/RanolP" rel="noreferrer" target="_blank">
