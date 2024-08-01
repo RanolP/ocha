@@ -14,6 +14,7 @@
 <table mx-auto text="6 lg:8">
 	<tr>
 		<td></td>
+		<td></td>
 		<th>{whole}</th>
 		<th>{oneTwo}</th>
 		<th>{twoThree}</th>
