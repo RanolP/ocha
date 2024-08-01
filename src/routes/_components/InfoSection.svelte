@@ -55,36 +55,38 @@
 </p>
 <p>선택할&nbsp;수&nbsp;있는 음료는 이런&nbsp;것들이 있어요.</p>
 <div h-4></div>
-<table mx-auto text="5 md:6 lg:7" bg-background-2 inline-block shadow="~ [black] md">
-	<tr>
-		<th text-right>밀크</th>
-		<td>딸기</td>
-		<td>바나나</td>
-		<td>파인애플</td>
-		<td>블루베리</td>
-	</tr>
-	<tr>
-		<th text-right>발효식초</th>
-		<td>사과</td>
-		<td>감귤</td>
-		<td>키위</td>
-		<td>파인애플</td>
-	</tr>
-	<tr>
-		<th text-right>커피</th>
-		<td>고소한 &times; ICE</td>
-		<td>고소한 &times; HOT</td>
-		<td>산미있는 &times; ICE</td>
-		<td>산미있는 &times; HOT</td>
-	</tr>
-	<tr>
-		<th text-right>차</th>
-		<td>모과차</td>
-		<td>생강차</td>
-		<td>청귤차</td>
-		<td>매실차</td>
-	</tr>
-</table>
+<div overflow-x-auto max-w-screen>
+	<table mx-auto text="5 md:6 lg:7" bg-background-2 inline-block shadow="~ [black] md">
+		<tr>
+			<th text-right>밀크</th>
+			<td>딸기</td>
+			<td>바나나</td>
+			<td>파인애플</td>
+			<td>블루베리</td>
+		</tr>
+		<tr>
+			<th text-right>발효식초</th>
+			<td>사과</td>
+			<td>감귤</td>
+			<td>키위</td>
+			<td>파인애플</td>
+		</tr>
+		<tr>
+			<th text-right>커피</th>
+			<td>고소한 &times; ICE</td>
+			<td>고소한 &times; HOT</td>
+			<td>산미있는 &times; ICE</td>
+			<td>산미있는 &times; HOT</td>
+		</tr>
+		<tr>
+			<th text-right>차</th>
+			<td>모과차</td>
+			<td>생강차</td>
+			<td>청귤차</td>
+			<td>매실차</td>
+		</tr>
+	</table>
+</div>
 
 <style>
 	th {

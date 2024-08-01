@@ -36,11 +36,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td>
-			<RangeArc>
-				{whole + oneTwo} + &alpha;
-			</RangeArc>
-		</td>
+		<td text="4 lg:6"><RangeArc>{whole + oneTwo} + &alpha;</RangeArc> </td>
 		<th>14:00</th>
 	</tr>
 	<tr>
@@ -51,7 +47,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><RangeArc>{whole + twoThree} + &alpha;</RangeArc></td>
+		<td text="4 lg:6"><RangeArc>{whole + twoThree} + &alpha;</RangeArc></td>
 		<th>15:00</th>
 	</tr>
 	<tr>
@@ -63,7 +59,7 @@
 		</td>
 	</tr>
 	<tr>
-		<td><RangeArc>{whole + threeFour} + &alpha;</RangeArc></td>
+		<td text="4 lg:6"><RangeArc>{whole + threeFour} + &alpha;</RangeArc></td>
 		<th>16:00</th>
 	</tr>
 	<tr>
