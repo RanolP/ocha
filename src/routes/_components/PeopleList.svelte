@@ -2,9 +2,9 @@
     import data from '@/data.gen.json'
 </script>
 
-<div grid="~ cols-4">
+<div flex="~ row wrap justify-around gap-4">
     {#each data as person (person.ord)}
-        <div  border="~ border-1">
+        <div  border="~ border-1" w="[fit-content]" p-4 flex="~ col justify-center">
             
             <h4 font-bold>
                 {#if person.social.twitter}

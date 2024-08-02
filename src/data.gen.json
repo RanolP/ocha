@@ -91,6 +91,7 @@
     "nickname": "편집자P",
     "time": "15:30/16:30",
     "userTopic": "하시는 얘기 귀동냥하러 가겠습니다",
+    "saying": "아... 일이 많아서 못가겠습니다. 죄송합니다.",
     "socialRaw": "골든래빗 편집자",
     "topicTagged": "수다",
     "social": {}
@@ -253,7 +254,14 @@
     "userTopic": "수다",
     "socialRaw": "포트원 백엔드 개발자, https://twitter.com/finalchildmc, finalchild@twt.rs",
     "topicTagged": "수다",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "finalchildmc",
+        "displayName": "파차 (@finalchild@twt.rs)",
+        "bio": "페미니즘을 향한 마녀사냥에 반대합니다.\n\n마인크래프트/파판들/코딩 하는 파차\n우리들의 마인크래프트 공간 운영\n마인크래프트 JE 번역\nTelegram: https://t.co/a5Pq4sRj0N\nFediverse: @finalchild@twt.rs\nBluesky: 🦋http://fin",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1782089803959549954/10imqAus_normal.jpg"
+      }
+    }
   },
   {
     "ord": 27,
@@ -262,17 +270,31 @@
     "userTopic": "웹 프론트엔드/프로그래밍 언어론 잡담",
     "socialRaw": "ranolp @ LAFTEL, https://twitter.com/RanolP_777, mailto:me@ranolp.dev",
     "topicTagged": "FE, PL",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "RanolP_777",
+        "displayName": "Ranol☆P (@ranolp@twt.rs)",
+        "bio": "int mian() { return ;-; }\n\nhe/him. 성인.\n언제나 차단 없음.\n말같지도 않은 이유로 사람임을 포기하지 말자.",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1213688874884464640/PqCf6ZeN_normal.jpg"
+      }
+    }
   },
   {
     "ord": 28,
-    "nickname": "CreeJee",
+    "nickname": "CreeJee - 시간 비틀기 실패해서 불참...",
     "time": "UNKNOWN",
     "userTopic": "먼가 이것저것잡담",
-    "saying": "이상한 개발자 / 커피쳇을 방자한 사람이 고픈이슈... 헤헤.. 셀 날라먹을뻔했다...",
+    "saying": "이상한 개발자 / 회사 회의가너무 여러개 있는이슈... 로 참여 실패...",
     "socialRaw": "CreeJee @ 쿼타랩 https://x.com/CreeJee",
     "topicTagged": "수다",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "CreeJee",
+        "displayName": "CreeJee(유동근)",
+        "bio": "주로 개발자 토픽 과 vrchat을 올리며\n모든 의견은 제 소속 과 관계없습니다.\n푸슝 비슷한거:https://t.co/LlOeUddti4\n\nprivate:@CreeJee4\n@creejee@uri.life",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1777959084664512512/T805mMy0_normal.jpg"
+      }
+    }
   },
   {
     "ord": 29,
@@ -292,7 +314,14 @@
     "saying": "혼자라도 뽀짝뽀짝 가보겠습니다….ㅜㅜ 일이 생겨 불참 합니다 ㅜㅜ\nㄴ 오실 때는 혼자 나가실 때는 밥 친구랑 같이!",
     "socialRaw": "프론트 개발자, https://twitter.com/aning_aningdae",
     "topicTagged": "듣기",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "aning_aningdae",
+        "displayName": "아닝",
+        "bio": "yes,,,, 나는 나는 아닝,,,",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1741818871194230784/_OSzNgav_normal.jpg"
+      }
+    }
   },
   {
     "ord": 31,
@@ -302,7 +331,13 @@
     "saying": "오후 반차 내고 갈 예정입니다.",
     "socialRaw": "https://www.facebook.com/fupfin.geek/, https://x.com/fupfin",
     "topicTagged": "옵저버",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "fupfin",
+        "displayName": "Park, Sungchul",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/243407338/profile_normal.png"
+      }
+    }
   },
   {
     "ord": 32,
@@ -329,7 +364,14 @@
     "saying": "백수 상태라 명함이 없습니다......\nㄴ 리멤버도 좋고~ 손글씨도 좋고~ 트위터 계정만 내밀어도 좋고~ ;)",
     "socialRaw": "https://locketgoma.tistory.com/\nhttps://x.com/LocketGoma",
     "topicTagged": "게임개발",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "LocketGoma",
+        "displayName": "로켓곰군",
+        "bio": "(프사 : @kkim_juice)\nC++ / 언리얼 주로 쓰는 게임 프로그래머입니다. 그 외 분야는 사실 잘 모릅니다....\n가끔 헛소리 및 공부한거 올리는곳 : https://t.co/kXx397vlQc",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1798020805412188160/4Pf8QVAR_normal.jpg"
+      }
+    }
   },
   {
     "ord": 34,
@@ -339,7 +381,14 @@
     "saying": "많은 분들의 이야기를 듣고 싶습니다",
     "socialRaw": "백엔드 개발자 겸.. 풀스택? @ 컴투스 https://twitter.com/Imnotdeveloper2",
     "topicTagged": "FE, BE",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "Imnotdeveloper2",
+        "displayName": "금시초밥",
+        "bio": "개발 잘 하고 싶은 사람....",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1814339181919059968/OytTCeXk_normal.jpg"
+      }
+    }
   },
   {
     "ord": 35,
@@ -349,7 +398,14 @@
     "saying": "아직 명함이 없어요. 제 수기명함 갖고 싶으신분\nㄴ 손~!\nㄴ 손~!",
     "socialRaw": "대학생 https://twitter.com/zlfn1102 ung@zlfn.space",
     "topicTagged": "사람",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "zlfn1102",
+        "displayName": "키루 | Kiroo",
+        "bio": "placeholder / email: ung@zlfn.space / bluesky: @zlfn.space",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1774819090030608384/iPrx3Z0e_normal.jpg"
+      }
+    }
   },
   {
     "ord": 36,
@@ -366,7 +422,14 @@
     "userTopic": "고수분들 이야기하면 키워드 주워듣기",
     "socialRaw": "개발하는 직장인, @ UDID https://twitter.com/juhyeon_k",
     "topicTagged": "듣기",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "juhyeon_k",
+        "displayName": "@로코맨(ロコマン)",
+        "bio": "github : https://t.co/AVT26s9EtF\nblog : https://t.co/5xrbRpfe0H\npixiv : https://t.co/or1F98wqRk\n블스: https://t.co/2cku2zX8LZ\n그림 그리는 개발자",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/980543428663504896/bAovS_DT_normal.jpg"
+      }
+    }
   },
   {
     "ord": 38,
@@ -404,7 +467,14 @@
     "saying": "사무실이랑 같은 블럭이라 잠시 들러 보겠습니다.",
     "socialRaw": "@카테노이드 https://x.com/junhochoi",
     "topicTagged": "수다",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "junhochoi",
+        "displayName": "Junho Choi (최준호)",
+        "bio": "System Engineer (CDN, Protocols). Currently at Catenoid Inc. ex-@cloudflare, Co-founder of @neumob, ex-@cdnetworks",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1208964567/me5_normal.png"
+      }
+    }
   },
   {
     "ord": 42,
@@ -424,7 +494,14 @@
     "saying": "놀아주세요...",
     "socialRaw": "풀스택 / https://twitter.com/segfault87",
     "topicTagged": "수다",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "segfault87",
+        "displayName": "Park Joon-Kyu",
+        "bio": "an increasingly decrepit computer programmer.",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1791077572392218624/wcNBnxsW_normal.jpg"
+      }
+    }
   },
   {
     "ord": 44,
@@ -454,7 +531,14 @@
     "saying": "낮 많이 가려서 무서워요",
     "socialRaw": "30년차 개발자 한명 추가용. https://twitter.com/phg98",
     "topicTagged": "듣기",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "phg98",
+        "displayName": "Harry Park 박형근",
+        "bio": "Software developer, Manager, Drummer",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1310169666740916225/4FTdHMP5_normal.jpg"
+      }
+    }
   },
   {
     "ord": 47,
@@ -652,7 +736,14 @@
     "saying": "개발자 모임을 만들고 싶은데 이런 모임을 잘 안 나가서 동향 파악 겸..?! 모임 하면 뭘 하나 넘 궁금해서 휴가 쓰고 가봅니다! 테크 기업이 아닌(?) 회사 사람들 이야기 듣고 싶어요.",
     "socialRaw": "프론트엔드 개발자  https://twitter.com/sudokeepcoding",
     "topicTagged": "수다",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "sudokeepcoding",
+        "displayName": "토공이",
+        "bio": "🙆🏻‍♀️ Girls support girls 😀 소속된 단체는 저의 발언과 관계가 없고요 제 트친의 의견도 저의 의견과는 다를 수 있읍니다👊 안 되면 될 때까지 다시 도전하는 개발자 💙 JS & TS 😎 개발계의 토끼공주가 될거야",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1805936129201614848/G6agEh2R_normal.jpg"
+      }
+    }
   },
   {
     "ord": 66,
@@ -662,7 +753,14 @@
     "saying": "프로덕트 디자이너 입니다. 트위터에서 스타트업과 프로그래밍에 대한 이야기 듣는 것을 좋아해 모임에 참석해 보려고 합니다. 좋은 자리 만들어주셔서 감사합니다.",
     "socialRaw": "프로덕트 디자이너 https://x.com/sunho_works",
     "topicTagged": "수다",
-    "social": {}
+    "social": {
+      "twitter": {
+        "username": "sunho_works",
+        "displayName": "sunho",
+        "bio": "일을 만듭니다",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1797235476514119680/YkPQzJjR_normal.jpg"
+      }
+    }
   },
   {
     "ord": 67,

@@ -4,7 +4,7 @@ import { AccountResolutionErrors, type AccountResolver } from '.';
 
 const rettiwt = new Rettiwt();
 export const TwitterResolver: AccountResolver = {
-	matcher: /^https?:\/\/(?:twitter\.com|x\.com)\/(?<username>[^\s/]+)/,
+	matcher: /https?:\/\/(?:twitter\.com|x\.com)\/(?<username>[a-zA-Z0-9_]+)/,
 	tryResolve: ({ username }) =>
 		pipe(
 			Effect.tryPromise({
