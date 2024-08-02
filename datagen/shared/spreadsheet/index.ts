@@ -1,6 +1,7 @@
 import { Effect, pipe, Stream } from 'effect';
 import PublicGoogleSheetsParser from 'public-google-sheets-parser';
 import { Schema, ParseResult } from '@effect/schema';
+import { Account, TwitterResolver } from '../account';
 
 const SPREADSHEET_ID = '15cbrElPVEvxMUN7BtWn3nXqgJUvPrY7MW6Xx4ePsyFY';
 const SPREADSHEET_TAB_NAME = '명단';
@@ -38,7 +39,7 @@ const Participants = Schema.Struct({
 		Schema.propertySignature,
 		Schema.fromKey(Keys.SAYING)
 	),
-	social: Schema.String.pipe(
+	socialRaw: Schema.String.pipe(
 		Schema.UndefinedOr,
 		Schema.propertySignature,
 		Schema.fromKey('[선택사항] 소셜/이메일/소속 등')
@@ -50,7 +51,11 @@ const Participants = Schema.Struct({
 	)
 });
 
-type Participants = Schema.Schema.Type<typeof Participants>;
+type Participants = Schema.Schema.Type<typeof Participants> & {
+	social: {
+		twitter?: Account;
+	};
+};
 
 export type SpreadSheetError = ReturnType<
 	(typeof SpreadSheetErrors)[keyof typeof SpreadSheetErrors]
@@ -73,6 +78,17 @@ export const parseSpreadSheet = (): Stream.Stream<Participants, SpreadSheetError
 			pipe(
 				value,
 				Schema.decodeUnknown(Participants),
+				Effect.flatMap((data) =>
+					Effect.gen(function* () {
+						const twitter = yield* pipe(
+							TwitterResolver.matcher.exec(data.socialRaw ?? '')?.groups,
+							Effect.fromNullable,
+							Effect.andThen(TwitterResolver.tryResolve),
+							Effect.orElseSucceed(() => undefined)
+						);
+						return { ...data, social: { twitter } };
+					})
+				),
 				Effect.mapError(SpreadSheetErrors.parseFailed)
 			)
 		)

@@ -5,8 +5,9 @@
     "time": "WHOLE",
     "userTopic": "사람들의 관심사가 궁금함\n학습법도 궁금",
     "saying": "100명이 올 거라 생각도 안하지만 아무도 안오면 ... 시무룩",
-    "social": "\"상주시라니.. 삼가 고인의 명복을 빕니다.\"\nㄴ 푸훕\nㄴ 호스트입니다. 호스트라서 상주한다고 했더니 삼가 고인 드립이라니...ㅠ.ㅠ \n인사이트에서 기획 일을 하고 있습니다. 업무와 별개로 놀려고 일 벌리는데 대표님이 장소 대여비 주신다고 하니 또 안할 이유는 없겠다 싶어서 해 봅니다. 아는 분도, 모르는 분도, 혹은 뭐하는 사람인지 궁금한 분도 오셔서 저와 이야기 나누시죠. ;) (저도 요기)\nㄴ 어.. 로그인해서 남긴건데 익명으로 남다니.. 왜 로그인해서 쓴건가.. \nㄴ 저기 로그인해서 남기고 이름을 남기려면 댓글이라는 좋은 기능이 있습니다. 그런데 누구세요?\nㄴ 구글 시트는 댓글이 눈에 잘 안 띄어서요...",
-    "topicTagged": "사람, 학습"
+    "socialRaw": "\"상주시라니.. 삼가 고인의 명복을 빕니다.\"\nㄴ 푸훕\nㄴ 호스트입니다. 호스트라서 상주한다고 했더니 삼가 고인 드립이라니...ㅠ.ㅠ \n인사이트에서 기획 일을 하고 있습니다. 업무와 별개로 놀려고 일 벌리는데 대표님이 장소 대여비 주신다고 하니 또 안할 이유는 없겠다 싶어서 해 봅니다. 아는 분도, 모르는 분도, 혹은 뭐하는 사람인지 궁금한 분도 오셔서 저와 이야기 나누시죠. ;) (저도 요기)\nㄴ 어.. 로그인해서 남긴건데 익명으로 남다니.. 왜 로그인해서 쓴건가.. \nㄴ 저기 로그인해서 남기고 이름을 남기려면 댓글이라는 좋은 기능이 있습니다. 그런데 누구세요?\nㄴ 구글 시트는 댓글이 눈에 잘 안 띄어서요...",
+    "topicTagged": "사람, 학습",
+    "social": {}
   },
   {
     "ord": 2,
@@ -14,8 +15,16 @@
     "time": "15:30/16:30",
     "userTopic": "수다",
     "saying": "3년째 떨어져서 낙심했...는데 초대권이 생겼...지만 이쪽 모임도 재밌어 보여요!",
-    "social": "https://twitter.com/raccoonyy",
-    "topicTagged": "수다"
+    "socialRaw": "https://twitter.com/raccoonyy",
+    "topicTagged": "수다",
+    "social": {
+      "twitter": {
+        "username": "raccoonyy",
+        "displayName": "seungho kim",
+        "bio": "다양함이 어우러지는 세상을 꿈꾸는 Software Engineer.\n\n44bits, Write The Docs Seoul  운영진.\n\n인프런에서 도커 컴포즈를 배워보세요: https://t.co/rTe9INzG4Z",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/765454151304159232/2TVW4nvw_normal.jpg"
+      }
+    }
   },
   {
     "ord": 3,
@@ -23,8 +32,9 @@
     "time": "13:30/14:30",
     "userTopic": "수다",
     "saying": "사실 회사가기 싫어서 신청해봅니다",
-    "social": "30년차 올드비.. ㅜ.ㅠ\nㄴ 올드비 스티커 드리고 싶다. ",
-    "topicTagged": "수다"
+    "socialRaw": "30년차 올드비.. ㅜ.ㅠ\nㄴ 올드비 스티커 드리고 싶다. ",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 4,
@@ -32,7 +42,8 @@
     "time": "UNKNOWN",
     "userTopic": "요즘 개발(AI, PL)",
     "saying": "감사합니다. 자리 만들어 주셨으니 전 과자 몇개 들고 가 보겠습니다!\nㄴ +_+;; 이왕이면 귀염뽀짝한 걸로 부탁드립니다.\nㄴ 몸에 좋은 그것 들어와 주시면 감사하겠습니다. 무슨 환이었는데...",
-    "topicTagged": "AI,PL"
+    "topicTagged": "AI,PL",
+    "social": {}
   },
   {
     "ord": 5,
@@ -40,86 +51,106 @@
     "time": "WHOLE",
     "userTopic": "관심사(행사, 발표주제)",
     "saying": "저도 떨어졌습니다....(2년째)",
-    "social": "🥑한빛앤 Developer Advocate | X (공유문서엔 트위터죠!)",
-    "topicTagged": "행사, 발표주제"
+    "socialRaw": "🥑한빛앤 Developer Advocate | X (공유문서엔 트위터죠!)",
+    "topicTagged": "행사, 발표주제",
+    "social": {}
   },
   {
     "ord": 6,
     "nickname": "scari",
     "time": "13:30/14:30",
     "userTopic": "발표 주제를 잡는 감이 떨어졌나...?",
-    "social": "https://twitter.com/scari_net",
-    "topicTagged": "발표주제"
+    "socialRaw": "https://twitter.com/scari_net",
+    "topicTagged": "발표주제",
+    "social": {
+      "twitter": {
+        "username": "scari_net",
+        "displayName": "Younggun Kim🌻",
+        "bio": "@ThePSF Fellow & ex-Board Director • @PyConAPAC • Co-Founder of @PyConKR & @SprintSeoul • ex-Mentor @ SWMaestro • CTO @ 미니창고 다락 • bsky @younggun.kim • 김영근(金永根)",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1105491691014782976/GHAyP_xA_normal.jpg"
+      }
+    }
   },
   {
     "ord": 7,
     "nickname": "솔베이",
     "time": "UNKNOWN",
-    "saying": "지금 백수여서 명함이... 일단 체력만이라도. (땀)\nㄴ 앗 리멤버 아니면 손글씨 명함! 없으면 어때요~"
+    "saying": "지금 백수여서 명함이... 일단 체력만이라도. (땀)\nㄴ 앗 리멤버 아니면 손글씨 명함! 없으면 어때요~",
+    "social": {}
   },
   {
     "ord": 8,
     "nickname": "황학범",
     "time": "UNKNOWN",
     "saying": "12:00시 전에 행사장에서 나갈꺼에요\nㄴ 어머 7분 거리를 1시간 30분 걸려서 오는 비법 좀...",
-    "social": "우천시도 모르는데, 미정 언젠가요.. 시간 미정이면 밍기적 대는건가요.."
+    "socialRaw": "우천시도 모르는데, 미정 언젠가요.. 시간 미정이면 밍기적 대는건가요..",
+    "social": {}
   },
   {
     "ord": 9,
     "nickname": "편집자P",
     "time": "15:30/16:30",
     "userTopic": "하시는 얘기 귀동냥하러 가겠습니다",
-    "social": "골든래빗 편집자",
-    "topicTagged": "수다"
+    "socialRaw": "골든래빗 편집자",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 10,
     "nickname": "승귤",
     "time": "15:30/16:30",
     "userTopic": "저도 귀동냥",
-    "social": "백엔드 개발자",
-    "topicTagged": "듣기"
+    "socialRaw": "백엔드 개발자",
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 11,
     "nickname": "euriion ",
     "time": "UNKNOWN",
     "userTopic": "동냥, 구걸",
-    "topicTagged": "수다"
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 12,
     "nickname": "구구",
     "time": "UNKNOWN",
     "userTopic": "귀동냥",
-    "topicTagged": "듣기"
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 13,
     "nickname": "가유나",
-    "time": "14:30/15:30",
+    "time": "15:30/16:30",
     "userTopic": "저도 그냥 수다 ",
     "saying": "반차내기 성공 ㅎㅎ 점심먹고 갑니다! (한시반보단 조금 늦을지도...)",
-    "social": "gayuna.github.io",
-    "topicTagged": "수다"
+    "socialRaw": "gayuna.github.io",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 14,
     "nickname": "김슬",
-    "time": "UNKNOWN"
+    "time": "UNKNOWN",
+    "saying": "감기로 미정..",
+    "social": {}
   },
   {
     "ord": 15,
     "nickname": "고예진",
     "time": "UNKNOWN",
     "userTopic": "다양한 분들, 다양한 회사 일하시는, 제품/경험 만드시는 이야기 ",
-    "topicTagged": "제품경험"
+    "topicTagged": "제품경험",
+    "social": {}
   },
   {
     "ord": 16,
     "nickname": "이규석",
     "userTopic": "커피보다 차",
-    "saying": "사무실이 코앞인데 사무실에 있을지가 미정이라..."
+    "saying": "사무실이 코앞인데 사무실에 있을지가 미정이라...",
+    "social": {}
   },
   {
     "ord": 17,
@@ -127,22 +158,32 @@
     "time": "UNKNOWN",
     "userTopic": "수다 떨고, 귀동냥하고, 구걸하러 가겠습니다. ",
     "saying": "16번 아저씨 간다고 해서 따라가렵니다..",
-    "topicTagged": "수다"
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 18,
     "nickname": "JohnGrib",
     "time": "UNKNOWN",
     "saying": "일이 생겨 불참하게 되었습니다.",
-    "social": "https://x.com/John_Grib"
+    "socialRaw": "https://x.com/John_Grib",
+    "social": {
+      "twitter": {
+        "username": "John_Grib",
+        "displayName": "기계인간 John Grib",
+        "bio": "일기장 겸 독서록.",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1244148341669158912/K1jzDqew_normal.jpg"
+      }
+    }
   },
   {
     "ord": 19,
     "nickname": "나나산",
     "time": "WHOLE",
     "userTopic": "듣고 수다 떨으러 가겠습니다!",
-    "social": "https://nanasan.co.kr",
-    "topicTagged": "수다"
+    "socialRaw": "https://nanasan.co.kr",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 20,
@@ -150,8 +191,9 @@
     "time": "13:30/14:30",
     "userTopic": "수다(아마도?)",
     "saying": "잘하면 Elastic 굿즈 몇개 가져갈수도?",
-    "social": "philip.choi@elastic.co",
-    "topicTagged": "수다"
+    "socialRaw": "philip.choi@elastic.co",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 21,
@@ -159,22 +201,32 @@
     "time": "UNKNOWN",
     "userTopic": "프엔 얘기 하고 싶지만 다른 분야 얘기도 좋아요!!",
     "saying": "죄송합니다 급한 일이 생겨 못 가게 되었습니다",
-    "social": "https://twitter.com/YG1ee",
-    "topicTagged": "듣기"
+    "socialRaw": "https://twitter.com/YG1ee",
+    "topicTagged": "듣기",
+    "social": {
+      "twitter": {
+        "username": "YG1ee",
+        "displayName": "YG",
+        "bio": "Vite + React, 그리고 Next.js 하는 프론트엔드 개발자 https://t.co/3IJ6YZZb9C https://t.co/fhVlTfKkD1",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/789790925614481408/HimqUeEp_normal.jpg"
+      }
+    }
   },
   {
     "ord": 22,
     "nickname": "Rachel",
     "time": "WHOLE",
     "userTopic": "듣다가 이야기 나누다가 :)",
-    "topicTagged": "수다"
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 23,
     "nickname": "승효",
     "time": "UNKNOWN",
     "userTopic": "사람 구경 갑니다",
-    "topicTagged": "사람"
+    "topicTagged": "사람",
+    "social": {}
   },
   {
     "ord": 24,
@@ -182,31 +234,35 @@
     "time": "WHOLE",
     "userTopic": "수다, 다양한 개발자분들의 이야기 듣기, 백엔드",
     "saying": "대학생이긴한데 참가해도 될까요..? 인사이트를 넓히고 싶어서 많은 분들의 이야기를 듣고 싶어서 명단 올려봅니다..",
-    "social": "백엔드 개발자, 대학생(3학년)",
-    "topicTagged": "수다"
+    "socialRaw": "백엔드 개발자, 대학생(3학년)",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 25,
     "nickname": "javaoracle",
     "time": "UNKNOWN",
     "userTopic": "수다",
-    "topicTagged": "수다"
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 26,
     "nickname": "파차",
     "time": "WHOLE",
     "userTopic": "수다",
-    "social": "포트원 백엔드 개발자, https://twitter.com/finalchildmc, finalchild@twt.rs",
-    "topicTagged": "수다"
+    "socialRaw": "포트원 백엔드 개발자, https://twitter.com/finalchildmc, finalchild@twt.rs",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 27,
     "nickname": "RanolP",
     "time": "WHOLE",
     "userTopic": "웹 프론트엔드/프로그래밍 언어론 잡담",
-    "social": "ranolp @ LAFTEL, https://twitter.com/RanolP_777, mailto:me@ranolp.dev",
-    "topicTagged": "FE, PL"
+    "socialRaw": "ranolp @ LAFTEL, https://twitter.com/RanolP_777, mailto:me@ranolp.dev",
+    "topicTagged": "FE, PL",
+    "social": {}
   },
   {
     "ord": 28,
@@ -214,8 +270,9 @@
     "time": "UNKNOWN",
     "userTopic": "먼가 이것저것잡담",
     "saying": "이상한 개발자 / 커피쳇을 방자한 사람이 고픈이슈... 헤헤.. 셀 날라먹을뻔했다...",
-    "social": "CreeJee @ 쿼타랩 https://x.com/CreeJee",
-    "topicTagged": "수다"
+    "socialRaw": "CreeJee @ 쿼타랩 https://x.com/CreeJee",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 29,
@@ -223,17 +280,19 @@
     "time": "UNKNOWN",
     "userTopic": "프론트엔드 잡담",
     "saying": "떨어져서 갑니다... 코로나 이슈로 참여 못 할 수도 있어여",
-    "social": "Basix @ Toss https://b6.to/t basix@basix.tech",
-    "topicTagged": "FE"
+    "socialRaw": "Basix @ Toss https://b6.to/t basix@basix.tech",
+    "topicTagged": "FE",
+    "social": {}
   },
   {
     "ord": 30,
     "nickname": "아닝",
     "time": "UNKNOWN",
     "userTopic": "다양한 이야기 듣기",
-    "saying": "혼자라도 뽀짝뽀짝 가보겠습니다….\nㄴ 오실 때는 혼자 나가실 때는 밥 친구랑 같이!",
-    "social": "프론트 개발자, https://twitter.com/aning_aningdae",
-    "topicTagged": "듣기"
+    "saying": "혼자라도 뽀짝뽀짝 가보겠습니다….ㅜㅜ 일이 생겨 불참 합니다 ㅜㅜ\nㄴ 오실 때는 혼자 나가실 때는 밥 친구랑 같이!",
+    "socialRaw": "프론트 개발자, https://twitter.com/aning_aningdae",
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 31,
@@ -241,8 +300,9 @@
     "time": "UNKNOWN",
     "userTopic": "구석에서 혼자 유령 놀이 (내가 보이니?)",
     "saying": "오후 반차 내고 갈 예정입니다.",
-    "social": "https://www.facebook.com/fupfin.geek/, https://x.com/fupfin",
-    "topicTagged": "옵저버"
+    "socialRaw": "https://www.facebook.com/fupfin.geek/, https://x.com/fupfin",
+    "topicTagged": "옵저버",
+    "social": {}
   },
   {
     "ord": 32,
@@ -250,8 +310,16 @@
     "time": "UNKNOWN",
     "userTopic": "게임개발 & 사람구경 & 잡담겸 기타 교류...",
     "saying": "얼마나 있을진 모르겠지만 잘부탁드립니다......",
-    "social": "https://x.com/presan100  https://github.com/LuticaCANARD",
-    "topicTagged": "게임개발"
+    "socialRaw": "https://x.com/presan100  https://github.com/LuticaCANARD",
+    "topicTagged": "게임개발",
+    "social": {
+      "twitter": {
+        "username": "presan100",
+        "displayName": "🪴Lutica:CANARD🪶",
+        "bio": "Icon : @rik0ring /뒷계오실분 DM /*FUB Free/*개발자 대학생 반반 /*日本語-VRC垢:@presan100_VRC",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1439735739122520069/dRz5I7Gf_normal.jpg"
+      }
+    }
   },
   {
     "ord": 33,
@@ -259,8 +327,9 @@
     "time": "WHOLE",
     "userTopic": "게임개발 + 사람구경 + 잡썰",
     "saying": "백수 상태라 명함이 없습니다......\nㄴ 리멤버도 좋고~ 손글씨도 좋고~ 트위터 계정만 내밀어도 좋고~ ;)",
-    "social": "https://locketgoma.tistory.com/\nhttps://x.com/LocketGoma",
-    "topicTagged": "게임개발"
+    "socialRaw": "https://locketgoma.tistory.com/\nhttps://x.com/LocketGoma",
+    "topicTagged": "게임개발",
+    "social": {}
   },
   {
     "ord": 34,
@@ -268,8 +337,9 @@
     "time": "UNKNOWN",
     "userTopic": "사람구경 +  백엔드/프론트 잡담",
     "saying": "많은 분들의 이야기를 듣고 싶습니다",
-    "social": "백엔드 개발자 겸.. 풀스택? @ 컴투스 https://twitter.com/Imnotdeveloper2",
-    "topicTagged": "FE, BE"
+    "socialRaw": "백엔드 개발자 겸.. 풀스택? @ 컴투스 https://twitter.com/Imnotdeveloper2",
+    "topicTagged": "FE, BE",
+    "social": {}
   },
   {
     "ord": 35,
@@ -277,23 +347,26 @@
     "time": "WHOLE",
     "userTopic": "사람구경",
     "saying": "아직 명함이 없어요. 제 수기명함 갖고 싶으신분\nㄴ 손~!\nㄴ 손~!",
-    "social": "대학생 https://twitter.com/zlfn1102 ung@zlfn.space",
-    "topicTagged": "사람"
+    "socialRaw": "대학생 https://twitter.com/zlfn1102 ung@zlfn.space",
+    "topicTagged": "사람",
+    "social": {}
   },
   {
     "ord": 36,
     "nickname": "김지완",
     "time": "UNKNOWN",
     "userTopic": "귀동냥, 사람구경",
-    "topicTagged": "듣기"
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 37,
     "nickname": "rocoman",
     "time": "UNKNOWN",
     "userTopic": "고수분들 이야기하면 키워드 주워듣기",
-    "social": "개발하는 직장인, @ UDID https://twitter.com/juhyeon_k",
-    "topicTagged": "듣기"
+    "socialRaw": "개발하는 직장인, @ UDID https://twitter.com/juhyeon_k",
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 38,
@@ -301,16 +374,18 @@
     "time": "UNKNOWN",
     "userTopic": "수다",
     "saying": "일하기 싫어요...",
-    "social": "파이선 백엔드 @ 루닛케어 forestkeep21@gmail.com",
-    "topicTagged": "사람"
+    "socialRaw": "파이선 백엔드 @ 루닛케어 forestkeep21@gmail.com",
+    "topicTagged": "사람",
+    "social": {}
   },
   {
     "ord": 39,
     "nickname": "박상현\nSean Park",
     "time": "UNKNOWN",
     "userTopic": "수다 및 눈치보다 사라지기",
-    "social": "명함없는… (요거라도: https://www.linkedin.com/in/swseanlab/)\nㄴ 손글씨 기대할게요~ ",
-    "topicTagged": "수다"
+    "socialRaw": "명함없는… (요거라도: https://www.linkedin.com/in/swseanlab/)\nㄴ 손글씨 기대할게요~ ",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 40,
@@ -318,7 +393,8 @@
     "time": "UNKNOWN",
     "userTopic": "수다",
     "saying": "회사 근처라 반차내고 갈 생각",
-    "topicTagged": "수다"
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 41,
@@ -326,8 +402,9 @@
     "time": "15:30/16:30",
     "userTopic": "수다",
     "saying": "사무실이랑 같은 블럭이라 잠시 들러 보겠습니다.",
-    "social": "@카테노이드 https://x.com/junhochoi",
-    "topicTagged": "수다"
+    "socialRaw": "@카테노이드 https://x.com/junhochoi",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 42,
@@ -335,8 +412,9 @@
     "time": "WHOLE",
     "userTopic": "수다, 고수분들의 이야기 듣기",
     "saying": "많은 분들과 인사 나눠보고 싶습니다~",
-    "social": "많은 분들과 인사 나눠보고 싶습니다~",
-    "topicTagged": "수다"
+    "socialRaw": "많은 분들과 인사 나눠보고 싶습니다~",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 43,
@@ -344,17 +422,19 @@
     "time": "UNKNOWN",
     "userTopic": "잡담",
     "saying": "놀아주세요...",
-    "social": "풀스택 / https://twitter.com/segfault87",
-    "topicTagged": "수다"
+    "socialRaw": "풀스택 / https://twitter.com/segfault87",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 44,
     "nickname": "Hikaru",
-    "time": "WHOLE",
+    "time": "UNKNOWN",
     "userTopic": "수다, 이런저런 IT정보 줍줍",
     "saying": "연차쓰고 좀 놀다가 가볼까합니다.",
-    "social": "디자이너 겸 웹퍼블리셔, 깃허브도 있긴 있어요\nhttps://github.com/ShiroiHikaru ",
-    "topicTagged": "수다"
+    "socialRaw": "디자이너 겸 웹퍼블리셔, 깃허브도 있긴 있어요\nhttps://github.com/ShiroiHikaru ",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 45,
@@ -362,8 +442,9 @@
     "time": "13:30/14:30",
     "userTopic": "고수분들 이야기하면 키워드 주워듣기\n",
     "saying": "오후 반차 썼어요!!! 잠깐 구경합니다^_^b",
-    "social": "백엔드 twitter@area_689",
-    "topicTagged": "듣기"
+    "socialRaw": "백엔드 twitter@area_689",
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 46,
@@ -371,8 +452,9 @@
     "time": "UNKNOWN",
     "userTopic": "듣기",
     "saying": "낮 많이 가려서 무서워요",
-    "social": "30년차 개발자 한명 추가용. https://twitter.com/phg98",
-    "topicTagged": "듣기"
+    "socialRaw": "30년차 개발자 한명 추가용. https://twitter.com/phg98",
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 47,
@@ -380,8 +462,9 @@
     "time": "WHOLE",
     "userTopic": "Seha 님과 수다요. ",
     "saying": "인프콘은 티켓은 구했지만, 정작 혼자서 외로이 세션만 참여할까봐 무서워요.",
-    "social": "개발자는 아니지만, https://www.linkedin.com/in/hyekyunghwang/",
-    "topicTagged": "수다"
+    "socialRaw": "개발자는 아니지만, https://www.linkedin.com/in/hyekyunghwang/",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 48,
@@ -389,16 +472,18 @@
     "time": "15:30/16:30",
     "userTopic": "바깥 세상 구경",
     "saying": "곧 퇴사하는데 일 없이 사무실에 있기 민망해요. 놀러 다닐래요~~~~~~! ",
-    "social": "취미로 코딩 하나쯤은... / https://www.linkedin.com/in/hanbi-kwon-11b834160/",
-    "topicTagged": "수다"
+    "socialRaw": "취미로 코딩 하나쯤은... / https://www.linkedin.com/in/hanbi-kwon-11b834160/",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 49,
     "nickname": "김선웅",
     "time": "WHOLE",
     "userTopic": "수다",
-    "social": "https://github.com/novdov",
-    "topicTagged": "수다"
+    "socialRaw": "https://github.com/novdov",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 50,
@@ -406,8 +491,9 @@
     "time": "WHOLE",
     "userTopic": "수다 + 개발 + 취업 + C++ + Rust + ?",
     "saying": "다양한 주제로 재밌는 이야기 나눠요~",
-    "social": "https://github.com/utilForever, https://www.linkedin.com/in/utilforever/",
-    "topicTagged": "C++, Rust"
+    "socialRaw": "https://github.com/utilForever, https://www.linkedin.com/in/utilforever/",
+    "topicTagged": "C++, Rust",
+    "social": {}
   },
   {
     "ord": 51,
@@ -415,8 +501,9 @@
     "time": "WHOLE",
     "userTopic": "사람구경 + 수다 + PL + Rust + ?",
     "saying": "학부생 애송이입니다 (저번주에 퇴사한 전 회사 명함 들고올듯)",
-    "social": "https://github.com/sohnryang",
-    "topicTagged": "PL, Rust"
+    "socialRaw": "https://github.com/sohnryang",
+    "topicTagged": "PL, Rust",
+    "social": {}
   },
   {
     "ord": 52,
@@ -424,15 +511,17 @@
     "time": "UNKNOWN",
     "userTopic": "사람구경 + 사람얘기 듣기 + 과자 주워먹기",
     "saying": "갔는데 아무도 아는 사람 없으면 심장 멎을 듯\nㄴ 왜 저스틴유 님이 아니라 저스팀으로 적어두셨습니까~~~~",
-    "social": "https://google.com/search?q=justin+yoo",
-    "topicTagged": "사람"
+    "socialRaw": "https://google.com/search?q=justin+yoo",
+    "topicTagged": "사람",
+    "social": {}
   },
   {
     "ord": 53,
     "nickname": "박신홍",
     "time": "13:30/14:30",
     "userTopic": "수다 + 사는얘기",
-    "topicTagged": "수다"
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 54,
@@ -440,8 +529,9 @@
     "time": "WHOLE",
     "userTopic": "수다 사는 얘기",
     "saying": "순번이 한참 아래인데 참석 가능 할까요\nㄴ 100명까지는 뭐 오며가며 보자고 적어둔 거니 ^^ 좁아도 다 만날 수 있겠죠~",
-    "social": "timeless82@gmail.com",
-    "topicTagged": "수다"
+    "socialRaw": "timeless82@gmail.com",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 55,
@@ -449,7 +539,8 @@
     "time": "UNKNOWN",
     "userTopic": "AI 끝물인가",
     "saying": "저는 컨퍼런스 지원도 안했어요...",
-    "topicTagged": "AI"
+    "topicTagged": "AI",
+    "social": {}
   },
   {
     "ord": 56,
@@ -457,8 +548,9 @@
     "time": "UNKNOWN",
     "userTopic": "회사 채용 이야기",
     "saying": "티오더 채용팀입니다. 개발자님 구해요~ \nㄴ ^^;;; 여기서 구인하시면 곤란합니다~\nㄴ 곤란한가요? 왜요??",
-    "social": "티오더 채용팀",
-    "topicTagged": "회사"
+    "socialRaw": "티오더 채용팀",
+    "topicTagged": "회사",
+    "social": {}
   },
   {
     "ord": 57,
@@ -466,8 +558,9 @@
     "time": "UNKNOWN",
     "userTopic": "수다, 바깥 세상 구경",
     "saying": "많은 분들과 인사 나눠보고 싶습니다~",
-    "social": "https://www.team-milestone.io/",
-    "topicTagged": "수다"
+    "socialRaw": "https://www.team-milestone.io/",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 58,
@@ -475,8 +568,16 @@
     "time": "UNKNOWN",
     "userTopic": "수다 + 요즘 개발 시장 + 취업",
     "saying": "퇴사해서 명함이 없는데.. ㅠ ",
-    "social": "https://x.com/kimpo2dev",
-    "topicTagged": "수다"
+    "socialRaw": "https://x.com/kimpo2dev",
+    "topicTagged": "수다",
+    "social": {
+      "twitter": {
+        "username": "kimpo2dev",
+        "displayName": "포이포이김포이",
+        "bio": "💻 백엔드 공부 | 가끔 우울해도 금방 털고 일어납니다 내인생 화이퉹🌝",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1813478120504414208/OnlsmEmL_normal.jpg"
+      }
+    }
   },
   {
     "ord": 59,
@@ -484,8 +585,9 @@
     "time": "WHOLE",
     "userTopic": "수다 + 사는 얘기 + AI",
     "saying": "대기업 부장 나부랭이입니다만, 요즘 바깥 세상이 궁금해서..",
-    "social": "https://www.facebook.com/namojo",
-    "topicTagged": "수다"
+    "socialRaw": "https://www.facebook.com/namojo",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 60,
@@ -493,8 +595,9 @@
     "time": "WHOLE",
     "userTopic": "수다 + 잡담 + 요즘 개발업계 ",
     "saying": "퇴사했어요",
-    "social": "프론트 개발자",
-    "topicTagged": "수다"
+    "socialRaw": "프론트 개발자",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 61,
@@ -502,8 +605,16 @@
     "time": "WHOLE",
     "userTopic": "수다 + 잡담 + 근황",
     "saying": "대학 학부생 나부랭이 출동",
-    "social": "https://twitter.com/ssogari_dev / https://github.com/ssogari-dev 이것저것 만들고 싶은 걸 만듭니다. 하지만 개발자는 아닌. ",
-    "topicTagged": "수다"
+    "socialRaw": "https://twitter.com/ssogari_dev / https://github.com/ssogari-dev\n이것저것 만들고 싶은 걸 만듭니다. 하지만 개발자는 아닌. ",
+    "topicTagged": "수다",
+    "social": {
+      "twitter": {
+        "username": "ssogari_dev",
+        "displayName": "【쏘가리】 내 탐라에 있는 브ㅇl페스 지도",
+        "bio": "20⬆️ / 간헐적 개발자 겸 리스너 겸 스트리머 / Cyber-Security / 아직도 폰에 파란새 키움 / 압도하냐? \n\nadmin@ssogari.dev",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1771217641723817985/wyxDHjaq_normal.jpg"
+      }
+    }
   },
   {
     "ord": 62,
@@ -511,7 +622,8 @@
     "time": "14:30/15:30",
     "userTopic": "듣기",
     "saying": "취준생인데, 궁금해서 참여해요! 다들 어떻게 사는지 궁금합니다.",
-    "topicTagged": "듣기"
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 63,
@@ -519,7 +631,8 @@
     "time": "WHOLE",
     "userTopic": "수다 + 진로탐색 + 듣기",
     "saying": "학부 3학년입니다! 프론트 개발이랑 PM에 관심 있어서 진로 탐색중인데 많은 분들이랑 이야기 하고 또 듣고싶습니다!",
-    "topicTagged": "수다"
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 64,
@@ -527,8 +640,9 @@
     "time": "WHOLE",
     "userTopic": "듣기",
     "saying": "좋은 자리 만들어주셔서 감사합니다.",
-    "social": "한빛미디어 IT출판부",
-    "topicTagged": "듣기"
+    "socialRaw": "한빛미디어 IT출판부",
+    "topicTagged": "듣기",
+    "social": {}
   },
   {
     "ord": 65,
@@ -536,8 +650,9 @@
     "time": "14:30/15:30",
     "userTopic": "수다 + 친목 + 브이로그 채널 홍보..?!",
     "saying": "개발자 모임을 만들고 싶은데 이런 모임을 잘 안 나가서 동향 파악 겸..?! 모임 하면 뭘 하나 넘 궁금해서 휴가 쓰고 가봅니다! 테크 기업이 아닌(?) 회사 사람들 이야기 듣고 싶어요.",
-    "social": "프론트엔드 개발자  https://twitter.com/sudokeepcoding",
-    "topicTagged": "수다"
+    "socialRaw": "프론트엔드 개발자  https://twitter.com/sudokeepcoding",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 66,
@@ -545,8 +660,9 @@
     "time": "14:30/15:30",
     "userTopic": "잡담 + 프로덕트",
     "saying": "프로덕트 디자이너 입니다. 트위터에서 스타트업과 프로그래밍에 대한 이야기 듣는 것을 좋아해 모임에 참석해 보려고 합니다. 좋은 자리 만들어주셔서 감사합니다.",
-    "social": "프로덕트 디자이너 https://x.com/sunho_works",
-    "topicTagged": "수다"
+    "socialRaw": "프로덕트 디자이너 https://x.com/sunho_works",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 67,
@@ -554,8 +670,9 @@
     "time": "WHOLE",
     "userTopic": "수다",
     "saying": "인프콘은 못 가도 콩고물은 얻어 먹을 수 있지 않을지~ 일단 가봅니다!",
-    "social": "프론트엔드 개발자",
-    "topicTagged": "수다"
+    "socialRaw": "프론트엔드 개발자",
+    "topicTagged": "수다",
+    "social": {}
   },
   {
     "ord": 68,
@@ -563,7 +680,8 @@
     "time": "WHOLE",
     "userTopic": "수다",
     "saying": "네트워킹 원해요!!!!!!!",
-    "social": "백엔드 개발자",
-    "topicTagged": "수다"
+    "socialRaw": "백엔드 개발자",
+    "topicTagged": "수다",
+    "social": {}
   }
 ]
