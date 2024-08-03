@@ -6,7 +6,7 @@
 	export let sections: SectionType[];
 </script>
 
-<header w-full sticky top-0 bg-background-2 shadow-lg>
+<header w-full sticky top-0 bg-background-2 shadow-lg z-10>
 	<nav w-full flex="~ row" justify-center text="4 lg:6" font-sans font-900>
 		<ul py-4 flex="~ row">
 			{#each sections as section, i (section.id)}
